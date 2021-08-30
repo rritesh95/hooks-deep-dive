@@ -3,10 +3,10 @@ import { useState } from 'react';
 export const UseStateExample2 = () => {
   const [count, setCount] = useState(0);
 
-  const handleAlert = () => {
-    setTimeout(() => {
-      alert(`Alert count is: ${count}`);
-    }, 3000);
+  const handleAlert = () => { //will hold value of "count" when it was called even if current
+    setTimeout(() => {        //"count" value is different as functional components in react
+      alert(`Alert count is: ${count}`);  //renders from top to bottom always but implements
+    }, 3000); //components like closures. 
   };
 
   return (

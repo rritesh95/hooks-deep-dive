@@ -9,8 +9,8 @@ const App = () => {
     <div className='App'>
       {/* <UseStateExample1 /> */}
       {/* <UseStateExample2 /> */}
-      <UseEffectExample />
-      {/* <UseLayoutEffectExample /> */}
+      {/* <UseEffectExample /> */}
+      <UseLayoutEffectExample />
     </div>
   );
 };
